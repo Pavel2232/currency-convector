@@ -30,9 +30,9 @@ GET /api/rates?origin=USD&to=RUB&value=1
 # Для запуска программы без использования docker:
 * ```uvicorn main:app --host 0.0.0.0 --port 80```
 
-# Сервис доступен по пути 
+# Сервис доступен по GET запросу 
 ```http request
-GET 127.0.0.0/api/rates?origin=USD&to=RUB&value=1
+127.0.0.0/api/rates?origin=USD&to=RUB&value=1
 ```
 - где origin валюта которую собираетесь перевести.
 - to валюта в которую хотите перевести.
