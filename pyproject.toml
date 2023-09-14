@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "currency convector"
+version = "0.1.0"
+description = ""
+authors = ["Pavel2232 <106510078+Pavel2232@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.103.1"
+uvicorn = "^0.23.2"
+environs = "^9.5.0"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
