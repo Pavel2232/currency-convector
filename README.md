@@ -32,7 +32,7 @@ GET /api/rates?origin=USD&to=RUB&value=1
 
 # Сервис доступен по GET запросу 
 ```http request
-127.0.0.0/api/rates?origin=USD&to=RUB&value=1
+127.0.0.1/api/rates?origin=USD&to=RUB&value=1
 ```
 - где origin валюта которую собираетесь перевести.
 - to валюта в которую хотите перевести.
